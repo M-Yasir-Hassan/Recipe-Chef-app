@@ -1,0 +1,59 @@
+/* General container styling */
+.chefsContainer {
+    padding: 2rem;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+/* Header styling */
+.chefsContainer h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 2rem;
+}
+
+/* Grid layout for chefs */
+.chefsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    justify-items: center;
+}
+
+/* Individual chef card styling */
+.chefCard {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.chefCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Chef image styling */
+.chefImage {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    object-fit: cover;
+}
+
+/* Chef name styling */
+.chefCard h3 {
+    font-size: 1.5rem;
+    color: #555;
+    margin-bottom: 0.5rem;
+}
+
+/* Chef specialty styling */
+.chefCard p {
+    font-size: 1rem;
+    color: #777;
+}

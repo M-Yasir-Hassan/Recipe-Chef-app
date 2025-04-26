@@ -1,0 +1,44 @@
+/* Recipe Details Container */
+.recipeDetailsContainer {
+    padding: 2rem;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    max-width: 800px;
+    margin: 2rem auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Comments Section */
+.commentsSection {
+    margin-top: 2rem;
+}
+
+.commentsSection h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+/* Comment List */
+.commentsSection .ant-list-item {
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    background-color: #fff;
+}
+
+/* Input and Button */
+.commentsSection .ant-input-textarea {
+    margin-bottom: 1rem;
+}
+
+.commentsSection .ant-btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.commentsSection .ant-btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
