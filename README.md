@@ -34,27 +34,11 @@ Built using the MERN stack (MongoDB, Express.js, React.js, Node.js) with **Vite*
 
 ---
 
-## 📂 Project Structure
-recipehub/
-├── backend/
-│   ├── controllers/
-│   ├── models/
-│   ├── routes/
-│   ├── middleware/
-│   └── server.js
-├── frontend/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   ├── services/
-│   │   └── App.jsx
-│   ├── public/
-├── README.md
-└── package.json
 
 
 
-#Create a .env file inside backend directory and add:
-PORT=3001
-MONGO_URI=your_mongodb_atlas_connection_string
-JWT_SECRET=your_secret_key
+
+## Create a .env file inside backend directory and add:
+-PORT=3001
+-MONGO_URI=your_mongodb_atlas_connection_string
+-JWT_SECRET=your_secret_key
